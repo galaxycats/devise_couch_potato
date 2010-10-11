@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{devise_couch_potato}
-  s.version = "0.1.0"
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Andi Bade"]
@@ -23,6 +23,9 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "devise_couch_potato.gemspec",
+     "lib/devise/orm/couch_potato.rb",
+     "lib/devise/orm/couch_potato/schema.rb",
      "lib/devise_couch_potato.rb",
      "test/helper.rb",
      "test/test_devise_couch_potato.rb"
