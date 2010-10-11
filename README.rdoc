@@ -1,5 +1,11 @@
 = devise_couch_potato
 
+add
+
+  require 'devise/orm/couch_potato'
+
+to your devise config (devise.rb)
+
   class User
     include CouchPotato::Persistence
     include Devise::Orm::CouchPotato
