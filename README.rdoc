@@ -1,6 +1,14 @@
 = devise_couch_potato
 
-Description goes here.
+  class User
+    include CouchPotato::Persistence
+    include Devise::Orm::CouchPotato
+
+    devise :database_authenticatable, :registerable,
+           :recoverable, :rememberable, :trackable, :validatable
+
+  end
+
 
 == Note on Patches/Pull Requests
  
